@@ -219,7 +219,6 @@ body {
 .title h2 {
     position: relative;
     color: #003366;
-
 }
 
 .title h2::after {
@@ -262,6 +261,24 @@ body {
 /* ---------------projects--------------- */
 .projects .row{
     margin: 100px 100px;
+}
+.projects .container h2 {
+    font-size: 35px;
+    position: relative;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #003366;
+}
+
+.projects .container h2::after {
+    content: "";
+    position: absolute;
+    background-color: #D4Af37;
+    height: 3px;
+    width: 10%;
+    bottom: 0;
+    right: 45%;
 }
 
 .projects .item{
@@ -378,12 +395,26 @@ body {
 
 /* media Query */
 @media (max-width: 576px) {
-    .projects .item-layer {
-        background-color: #228b224d;
-        opacity: 1;
-    }
+    .navbar-nav {  
+        flex-direction: column; 
+        text-align: center; 
+    }  
+        
+    h2, h3 {  
+        font-size: 1.5rem;
+    }  
 
     .contact .contact-form {
         width: 90% !important;
     }
+
+    img {  
+        max-width: 100%;    
+        height: auto;       
+    }  
+
+    footer {  
+        flex-direction: column;  
+        align-items: center;
+    }  
 }
