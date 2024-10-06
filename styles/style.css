@@ -349,6 +349,10 @@ body {
         font-size: 0.5rem;
     }  
 
+    .home-container .layer .home-text .btn-1{
+        margin-left: 10px;
+    }
+
     .about {  
         padding: 10px;  
     }  
@@ -370,7 +374,7 @@ body {
     }    
 
     .projects .img-fluid {  
-        max-width: 80vw;    
+        max-width: 60vw;    
         height: 45vh; 
         object-fit: contain; 
     }  
