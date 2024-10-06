@@ -202,7 +202,8 @@ body {
 
  /* ---------------projects--------------- */
 .projects .row{
-    margin: 100px 100px;
+    margin: 10px 10px;
+    overflow: hidden;
 }
 .projects .container h2 {
     font-size: 30px;
@@ -375,7 +376,7 @@ body {
     }    
 
     .projects .img-fluid {  
-        max-width: 120vw !important;    
+        max-width: 100vw !important;    
         height: auto; 
         object-fit: cover; 
     }  
