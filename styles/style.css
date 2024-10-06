@@ -370,12 +370,12 @@ body {
     }    
 
     .projects .img-fluid {  
-        max-width: 90vw;    
+        max-width: 85vw;    
         height: 40vh; 
         object-fit: contain; 
     }  
 
     .projects .item:hover .item-layer {
-         max-width: 90vw;
+         max-width: 85vw;
     }
 }
