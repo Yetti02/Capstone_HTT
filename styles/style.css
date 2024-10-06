@@ -126,8 +126,6 @@ body {
 .home-container .layer .home-text button {
     background-color: #D4Af37;
     border: none;
-    align-items: center;
-    justify-items: center;
    max-width: 150px;
     cursor: pointer;
 }
@@ -152,7 +150,7 @@ body {
 }
 
 .about-section .container h2 {
-    font-size: 50px;
+    font-size: 40px;
     position: relative;
     margin-top: 25px;
     padding-bottom: 25px;
@@ -206,7 +204,7 @@ body {
     margin: 100px 100px;
 }
 .projects .container h2 {
-    font-size: 35px;
+    font-size: 30px;
     position: relative;
     margin-top: 10px;
     padding-bottom: 15px;
@@ -266,7 +264,7 @@ body {
 
 .contact-form h2{
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
     color: #003366;
 }
 
@@ -351,16 +349,6 @@ body {
         font-size: 0.5rem;
     }  
 
-    .home-container .layer .home-text button{
-       width: 200px;
-    }
-    .home-container .layer .home-text .btn-1 {
-        margin-left: 5% !important;
-    }
-
-    .home-container .layer .home-text .btn-2{
-        padding: 10px !important;
-    }
     .about {  
         padding: 10px;  
     }  
@@ -382,8 +370,12 @@ body {
     }    
 
     .projects .img-fluid {  
-        width: 65vw auto;
-        height: 25vh; 
-        object-fit: cover; 
+        max-width: 90vw;    
+        height: 40vh; 
+        object-fit: contain; 
     }  
+
+    .projects .item:hover .item-layer {
+         max-width: 90vw;
+    }
 }
