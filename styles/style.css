@@ -375,6 +375,11 @@ body {
         margin-right: 1px;
     }    
 
+    .projects .row{
+        margin: 10px 10px !important;
+        overflow: hidden;
+    }
+
     .projects .img-fluid {  
         max-width: 100vw !important;    
         height: auto; 
