@@ -375,7 +375,7 @@ body {
     }    
 
     .projects .img-fluid {  
-        max-width: 95vw auto !important;    
+        max-width: 120vw !important;    
         height: auto; 
         object-fit: cover; 
     }  
