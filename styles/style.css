@@ -370,8 +370,8 @@ body {
     }    
 
     .projects .img-fluid {  
-        max-width: 85vw;    
-        height: 40vh; 
+        max-width: 80vw;    
+        height: 45vh; 
         object-fit: contain; 
     }  
 
