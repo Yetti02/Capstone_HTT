@@ -374,7 +374,7 @@ body {
     }    
 
     .projects .img-fluid {  
-        max-width: 300% auto;    
+        max-width: 700% auto;    
         height: auto; 
         object-fit: contain; 
     }  
