@@ -115,7 +115,7 @@ body {
     position: absolute;
     background-color: #D4Af37;
     height: 3px;
-    width: 10%;
+    width: 15%;
     bottom: 0;
     left: calc(50% - 20px);
 }
@@ -260,7 +260,7 @@ body {
 /* --------------contact------------- */
 .contact{
     font-size: 18px;
-    margin-top: 5em;
+    margin-top: 20px;
     margin-bottom: 3px;
 }
 
@@ -268,13 +268,17 @@ body {
     text-align: center;
     font-size: 30px;
     color: #003366;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 10px;
 }
 
 .contact-form h2::after {
     content: "";
+    position: absolute;
     background-color: #D4Af37;
-    height: 30px;
-    width: 10%;
+    height: 3px;
+    width: 15%;
     bottom: 0;
     right: 45%;
 }
