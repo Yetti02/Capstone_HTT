@@ -5,7 +5,7 @@ This repository contains my portfolio website project for the HerTechTrail Cohor
 
 Live Demo  
 
-You can view the live version of the website here: [https://Yetti02.github.io/Capstone_HTT/](https://Yetti02.github.io/Capstone_HTT/)  
+You can view the live version of the website here: [https://Yetti02.github.io/Capstone_HTT/](https://yetti02.github.io/Capstone_HTT/)  
 
  Technologies Used  
 
